@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "debug": "testcafe $NODE_DEBUG_OPTION chrome"
+  },
+  "devDependencies": {
+    "testcafe": "*"
+  },
+  "dependencies": {
+    "js-combinatorics": "^0.5.5",
+    "testcafe-reporter-xunit": "^2.1.0"
+  }
+}

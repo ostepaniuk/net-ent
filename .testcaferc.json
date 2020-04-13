@@ -1,0 +1,6 @@
+{
+  "reporter": {
+    "name": "xunit",
+    "output": "reports/report.xml"
+  }
+}
