@@ -17,9 +17,9 @@ const mock = RequestMock()
     }, 200, {"Content-Type": "application/json"})
 
 
-fixture`Spin with api mocked`// declare the fixture
+fixture`Spin with api mocked`
     .page`http://127.0.0.1:8000/`
-    .requestHooks(mock);  // specify the start page
+    .requestHooks(mock);
 
 test('Test all possible symbols combinations with mocked api', async t => {
     let testingResults = new Map
@@ -44,8 +44,8 @@ test('Test all possible symbols combinations with mocked api', async t => {
 });
 
 
-fixture`Spin with no api mock being used`// declare the fixture
-    .page`http://127.0.0.1:8000/` // specify the start page
+fixture`Spin with no api mock being used`
+    .page`http://127.0.0.1:8000/`
 
 test('Test sequential number of spins', async t => {
 
